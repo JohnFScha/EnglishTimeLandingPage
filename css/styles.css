@@ -1,0 +1,430 @@
+@charset "UTF-8";
+@import url(/scss/variables/_variables.scss);
+body {
+  background-image: linear-gradient(#9667e0 20%, #d4bbfc, #ebd9fc, #f2ebfb, #fbfaff); }
+
+/*Barra de navegación*/
+nav {
+  background-image: linear-gradient(to right, #9667e0 20%, #d4bbfc, #ebd9fc, #f2ebfb);
+  font-family: "Fuzzy Bubbles", cursive;
+  height: auto; }
+  nav #header {
+    text-decoration: none;
+    background-color: transparent;
+    color: #f2ebfb;
+    text-shadow: 2px 2px 3px #d4bbfc;
+    text-align: center;
+    font-size: calc(5px + 1vw);
+    margin-right: 10px; }
+    nav #header .img-fluid {
+      width: 30%; }
+    nav #header:hover {
+      text-decoration: none;
+      background-color: transparent;
+      color: #d4bbfc;
+      text-shadow: 2px 2px 3px #d4bbfc;
+      text-align: center;
+      font-size: calc(5px + 1vw); }
+    nav #header .img-fluid {
+      filter: drop-shadow(5px 5px 10px #d4bbfc); }
+  nav #toggler {
+    margin: 0 10px;
+    background-color: #d4bbfc;
+    color: #9667e0;
+    box-shadow: 3px 3px 5px #9667e0; }
+  nav .nav-link {
+    text-decoration: none;
+    background-color: transparent;
+    color: #9667e0;
+    text-shadow: 2px 2px 3px #d4bbfc;
+    text-align: center;
+    font-size: calc(10px + 1vw);
+    margin-right: 10px; }
+    nav .nav-link:hover {
+      background-color: #9667e0;
+      color: #ebd9fc; }
+
+/*Contenido principal*/
+main {
+  /*Boton de whatsapp*/
+  /*Encabezados y descripción*/
+  /*Lineas horizontales*/
+  /*Carrusel*/
+  /*Curricula de idiomas*/
+  /*Testimonios*/
+  /*Plantel docente*/
+  /*Formulario de contacto*/ }
+  main #whatsapp {
+    position: sticky;
+    right: 2%;
+    top: 20%;
+    background-color: lightgreen;
+    z-index: 1000;
+    font-size: 20px;
+    font-family: "Caveat Brush", cursive; }
+    main #whatsapp #whatsapp-link {
+      text-decoration: none;
+      color: white; }
+    main #whatsapp #whatsapp-text {
+      padding: 0;
+      font-size: 2vw; }
+    main #whatsapp .bi-whatsapp {
+      margin: 0;
+      padding: 0;
+      font-size: 3vw; }
+    main #whatsapp:hover {
+      background-color: #46b346; }
+  main #vision {
+    width: 90%;
+    background-color: #ebd9fc;
+    color: #9667e0;
+    font-family: "Caveat Brush", cursive;
+    border: #ebd9fc 3px solid; }
+  main #mobile-description {
+    display: none; }
+  main #classes-h1 {
+    width: 90%;
+    background-color: #d4bbfc;
+    color: #9667e0;
+    font-family: "Caveat Brush", cursive;
+    border: #d4bbfc 3px solid; }
+  main #heading {
+    width: 90%;
+    background-color: #ebd9fc;
+    color: #9667e0;
+    font-family: "Caveat Brush", cursive;
+    border: #ebd9fc 3px solid; }
+  main #testimonies {
+    width: 90%;
+    background-color: #9667e0;
+    color: #d4bbfc;
+    font-family: "Caveat Brush", cursive;
+    border: #9667e0 3px solid; }
+  main #testimonies-2 {
+    width: 90%;
+    background-color: #d4bbfc;
+    color: #9667e0;
+    font-family: "Caveat Brush", cursive;
+    border: #9667e0 3px solid; }
+  main hr {
+    height: 10px;
+    width: 95%;
+    color: #ebd9fc;
+    background-color: #9667e0;
+    border: #9667e0 1% solid;
+    border-radius: 5px;
+    margin-top: 25px; }
+  main #hr-2 {
+    height: 10px;
+    width: 100%;
+    color: #9667e0;
+    background-color: #ebd9fc;
+    border: #9667e0 1% solid;
+    border-radius: 5px;
+    margin-top: 25px; }
+  main #carousel-inner {
+    width: 100%;
+    background-color: #d4bbfc;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    margin: auto; }
+    main #carousel-inner .carousel-caption {
+      font-family: "Caveat Brush", cursive; }
+      main #carousel-inner .carousel-caption h5 {
+        font-weight: bold;
+        font-size: 30px; }
+      main #carousel-inner .carousel-caption p {
+        font-size: 20px; }
+  main div.row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly; }
+    main div.row .col-3 {
+      text-align: justify;
+      background-color: #9667e0;
+      color: #ebd9fc; }
+      main div.row .col-3 p {
+        font-family: "Caveat Brush", cursive;
+        font-size: calc(12px + 0.5vw); }
+      main div.row .col-3 button {
+        width: 100%;
+        background-color: #d4bbfc;
+        color: #9667e0;
+        border: 1px #f2ebfb solid; }
+        main div.row .col-3 button a {
+          display: block;
+          text-decoration: none;
+          color: #9667e0; }
+          main div.row .col-3 button a:hover {
+            background-color: #f2ebfb;
+            color: #9667e0; }
+        main div.row .col-3 button:hover {
+          background-color: #f2ebfb;
+          color: #9667e0; }
+      main div.row .col-3:hover {
+        transform: scale(105%);
+        transition: transform .5s; }
+  main #test {
+    background-color: #9667e0;
+    padding: 15px;
+    margin: 15px 0;
+    color: #ebd9fc;
+    width: 90%;
+    height: auto; }
+    main #test .img-fluid {
+      max-width: 25%; }
+    main #test #test-text {
+      border-left: #ebd9fc 3px solid;
+      margin-left: 10px; }
+      main #test #test-text h1 {
+        font-family: "Caveat Brush", cursive; }
+      main #test #test-text p {
+        font-family: "Lato", sans-serif;
+        font-size: x-large; }
+    main #test #test-text-2 {
+      border-right: #ebd9fc 3px solid;
+      margin-right: 10px; }
+      main #test #test-text-2 h1 {
+        font-family: "Caveat Brush", cursive;
+        text-align: end; }
+      main #test #test-text-2 p {
+        font-family: "Lato", sans-serif;
+        font-size: X-large;
+        text-align: end; }
+    main #test:hover {
+      transform: scale(105%);
+      transition: transform .5s; }
+  main #test-button {
+    width: 90%;
+    background-color: #9667e0;
+    color: #ebd9fc;
+    border: #f2ebfb 3px solid;
+    font-size: x-large; }
+    main #test-button:hover {
+      background-color: #d4bbfc;
+      color: #9667e0; }
+    main #test-button #button-link {
+      display: block;
+      text-decoration: none;
+      color: #ebd9fc; }
+      main #test-button #button-link:hover {
+        color: #9667e0; }
+  main div.col-3 div.card {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
+    background-color: #ebd9fc;
+    color: #9667e0;
+    border: #f2ebfb 3px solid; }
+    main div.col-3 div.card h5 {
+      font-family: "Caveat Brush", cursive;
+      font-size: calc(15px + 1vw); }
+    main div.col-3 div.card p {
+      font-family: "Lato", sans-serif;
+      font-size: calc(5px + 1vw);
+      font-weight: bold; }
+    main div.col-3 div.card a {
+      width: 100%;
+      background-color: #9667e0;
+      color: #ebd9fc;
+      border: #ebd9fc 1px solids;
+      text-decoration: none; }
+      main div.col-3 div.card a:hover {
+        background-color: #f2ebfb;
+        color: #9667e0; }
+  main div.col-3:hover {
+    transform: scale(105%);
+    transition: transform .5s; }
+  main form.row {
+    background-color: #9667e0;
+    border: #ebd9fc 3px solid;
+    padding: 3%; }
+    main form.row legend {
+      font-family: "Caveat Brush", cursive;
+      color: #d4bbfc;
+      font-size: calc(25px + 1vw); }
+    main form.row input.form-control {
+      background-color: #d4bbfc;
+      color: #9667e0;
+      font-weight: bold;
+      font-family: "Lato", sans-serif;
+      justify-content: start;
+      height: auto; }
+    main form.row select.form-select {
+      background-color: #d4bbfc;
+      color: gray;
+      font-weight: light;
+      font-family: "Lato", sans-serif;
+      justify-content: start;
+      height: auto; }
+    main form.row h3 {
+      font-family: "Lato", sans-serif;
+      color: #d4bbfc;
+      font-size: calc(15px + 1vw);
+      font-weight: bold; }
+    main form.row div.form-check {
+      background-color: #9667e0;
+      color: #d4bbfc;
+      font-weight: bold;
+      font-family: "Lato", sans-serif;
+      justify-content: center;
+      height: auto;
+      font-size: larger; }
+    main form.row textarea.form-control {
+      background-color: #d4bbfc;
+      color: #9667e0;
+      font-weight: bold;
+      font-family: "Lato", sans-serif;
+      justify-content: center;
+      height: calc(150px + 1vh); }
+    main form.row label.form-label {
+      color: #9667e0; }
+    main form.row .btn {
+      background-color: #d4bbfc;
+      color: #9667e0; }
+    main form.row .btn[type="submit"]:hover {
+      background-color: green;
+      color: #f2ebfb; }
+    main form.row .btn[type="reset"]:hover {
+      background-color: #cf0000;
+      color: #f2ebfb; }
+
+/*Pie de página*/
+footer {
+  background-color: #9667e0;
+  color: #f2ebfb;
+  font-family: "Fuzzy Bubbles", cursive;
+  height: auto; }
+  footer #social {
+    padding-left: calc(5px + 0.5vw);
+    font-size: calc(15px + 1vw); }
+
+/*Vista tablet*/
+@media only screen and (max-width: 768px) {
+  body {
+    background-image: linear-gradient(#9667e0 10%, #d4bbfc, #ebd9fc, #f2ebfb); }
+    body nav div.container-fluid {
+      flex-wrap: wrap; }
+    body nav #header {
+      width: 50%;
+      font-size: calc(12px + 1vw); }
+      body nav #header .img-fluid {
+        width: 25%; }
+    body nav .nav-item .nav-link {
+      width: 35%;
+      margin: auto;
+      margin-top: 1%;
+      font-size: calc(13px + 1vw);
+      background-image: linear-gradient(to left, #9667e0 10%, #d4bbfc, #ebd9fc, #f2ebfb);
+      box-shadow: 2px 2px 3px black; }
+    body main #whatsapp {
+      font-size: 25px;
+      top: 25%;
+      right: 5%;
+      z-index: 1000; }
+      body main #whatsapp .bi-whatsapp {
+        padding: 0px;
+        font-size: larger; }
+      body main #whatsapp #whatsapp-text {
+        display: none; }
+    body main #carrousel-inner {
+      width: 80% !important; }
+    body main #mobile-description {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      padding: 10px;
+      color: #ebd9fc;
+      text-shadow: 2px 2px 2px black;
+      margin-top: 5%; }
+      body main #mobile-description #second {
+        text-align: end; }
+      body main #mobile-description h5 {
+        font-family: "Caveat Brush", cursive;
+        font-size: calc(15px + 1vw); }
+      body main #mobile-description p {
+        font-family: "Lato", sans-serif;
+        font-size: calc(10px + 0.5vw);
+        font-weight: bold; }
+    body main #classes {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: space-evenly;
+      align-items: center; }
+    body main .col-3 {
+      width: 80%;
+      text-align: center;
+      margin-bottom: 5%; }
+    body main #test {
+      width: 100%;
+      height: auto; }
+      body main #test #test-text p {
+        font-size: calc(2px + 2.5vh);
+        text-align: justify; }
+      body main #test #test-text-2 p {
+        font-size: calc(2px + 2.5vh);
+        text-align: justify; }
+      body main #test .img-fluid {
+        max-width: 30vw;
+        height: 40vh;
+        object-fit: fill; }
+    body main #test-button {
+      width: 100%;
+      font-size: large; }
+    body main div.row {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: space-evenly;
+      align-items: center; }
+      body main div.row div.col-3 .card-body h5 {
+        font-size: calc(15px + 2vw) !important; }
+      body main div.row div.col-3 .card-body p {
+        font-size: calc(10px + 2vw) !important; }
+    body main form div.row {
+      flex-flow: row nowrap; }
+    body footer #footer {
+      font-size: 2.5vh; }
+      body footer #footer .bi-geo {
+        font-size: 5vw;
+        padding-right: 0.5vw; }
+    body footer #social {
+      font-size: 3.5vw;
+      padding-left: 1.5vw; } }
+
+/*Vista mobile*/
+@media only screen and (max-width: 426px) {
+  nav #header {
+    justify-content: left;
+    width: 100%;
+    font-size: medium; }
+    nav #header .img-fluid {
+      width: 35% !important; }
+  main #whatsapp {
+    top: 20% !important; }
+  main #test {
+    flex-direction: column !important; }
+    main #test .img-fluid {
+      max-width: 100% !important;
+      height: auto !important;
+      margin: 10px !important; }
+    main #test #test-text {
+      border-left: none !important;
+      border-top: #ebd9fc 3px solid !important;
+      text-align: start !important;
+      margin-right: 0 !important;
+      font-size: x-large !important; }
+    main #test #test-text-2 {
+      border-right: none !important;
+      border-bottom: #ebd9fc 3px solid !important;
+      text-align: justify !important;
+      margin-left: 0 !important;
+      font-size: x-large !important; }
+    main #test #test-button {
+      font-size: large !important; }
+  main #classes .col-3 p {
+    font-size: calc(15px + 1vw) !important; }
+  footer #footer div.container-fluid {
+    width: 100vw;
+    font-size: 12px; }
+  footer #footer #social {
+    font-size: 25px; } }

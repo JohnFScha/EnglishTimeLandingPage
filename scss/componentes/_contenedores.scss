@@ -1,0 +1,169 @@
+@import url(/scss/variables/_variables.scss);
+
+@mixin whatsapp ($position, $right, $top, $bg-color, $z-index, $font-size, $font-family) {
+  position: $position;
+  right: $right;
+  top: $top;
+  background-color: $bg-color;
+  z-index: $z-index;
+  font-size: $font-size;
+  font-family: $font-family;
+}
+
+@mixin whatsapp_mobile {
+  font-size: 25px;
+  top: 25%;
+  right: 5%;
+  z-index: 1000;
+}
+
+@mixin estilos_link ($decoracion, $bg-color, $color, $text-shadow, $text-align, $font-size) {
+  text-decoration: $decoracion;
+  background-color: $bg-color;
+  color: $color;
+  text-shadow: $text-shadow;
+  text-align: $text-align;
+  font-size: $font-size;
+}
+
+@mixin toggler {
+  margin: 0 10px;
+  background-color: #d4bbfc;
+  color: #9667e0;
+  box-shadow: 3px 3px 5px #9667e0;
+}
+
+@mixin estilo_link_2 ($color){
+  display: block;
+  text-decoration: none;
+  color: $color;
+}
+
+@mixin link_hover ($bg-color, $color) {
+  background-color: $bg-color;
+  color: $color;
+}
+
+@mixin footer_style ($bg-color, $color, $font-family, $height) {
+  background-color: $bg-color;
+  color: $color;
+  font-family: $font-family;
+  height: $height;
+}
+
+@mixin estilo_encabezados ($width, $bg-color, $color, $font-family, $border) {
+  width: $width;
+  background-color: $bg-color;
+  color: $color;
+  font-family: $font-family;
+  border: $border;
+}
+
+@mixin estilo_mobile_desc {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  padding: 10px;
+  color: #ebd9fc;
+  text-shadow: 2px 2px 2px black;
+}
+
+@mixin carousel ($width, $bg-color, $color, $text-shadow) {
+  width: $width;
+  background-color: $bg-color;
+  color: $color;
+  text-shadow: $text-shadow;
+}
+
+@mixin hr_style {
+  height: 10px;
+  width: 95%;
+  color: #ebd9fc;
+  background-color: #9667e0;
+  border: #9667e0 1% solid;
+  border-radius: 5px;
+  margin-top: 25px;
+}
+
+@mixin hr_style_2 {
+  height: 10px;
+  width: 100%;
+  color: #9667e0;
+  background-color: #ebd9fc;
+  border: #9667e0 1% solid;
+  border-radius: 5px;
+  margin-top: 25px;
+}
+
+@mixin enlarge {
+  transform: scale(105%);
+  transition: transform .5s;
+}
+
+@mixin estilo_padre ($display, $flow, $justify){
+  display: $display;
+  flex-flow: $flow;
+  justify-content: $justify;
+}
+
+@mixin div_style_1 ($text-align, $bg-color, $color) {
+  text-align: $text-align;
+  background-color: $bg-color;
+  color: $color;
+}
+
+@mixin div_style_2 ($bg-color, $padding, $margin, $color, $width, $height) {
+  background-color: $bg-color;
+  padding: $padding;
+  margin: $margin;
+  color: $color;
+  width: $width;
+  height: $height;
+}
+
+@mixin estilo_boton ($width, $bg-color, $color, $border) {
+  width: $width;
+  background-color: $bg-color;
+  color: $color;
+  border: $border;
+}
+
+@mixin card_style ($display, $flow, $align, $bg-color, $color, $border) {
+  display: $display;
+  flex-flow: $flow;
+  align-content: $align;
+  background-color: $bg-color;
+  color: $color;
+  border: $border;
+}
+
+@mixin form_style ($bg-color, $border, $padding) {
+  background-color: $bg-color;
+  border: $border;
+  padding: $padding;
+}
+
+@mixin input_style ($bg-color, $color, $weight, $font-family, $justify, $height) {
+  background-color: $bg-color;
+  color: $color;
+  font-weight: $weight;
+  font-family: $font-family;
+  justify-content: $justify;
+  height: $height;
+}
+
+@mixin nav_link_mobile {
+  width: 35%;
+  margin: auto;
+  margin-top: 1%;
+  font-size: calc(13px + 1vw);
+  background-image: $linear_gradient3;
+  box-shadow: 2px 2px 3px black;
+}
+
+@mixin testimonies_mobile {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
