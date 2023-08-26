@@ -1,4 +1,4 @@
-# EntregaFinalSchallibaum
+# English time landing page
 Entrega final del proyecto del curso de Desarrollo Web comision 44670:
 - SCSS, estilo avanzando con uso de variables, parcials, mixins y nesting.
 - HTML, estructura completa de la web, usando las clases de Bootstrap para organizar los diversos contenidos.
